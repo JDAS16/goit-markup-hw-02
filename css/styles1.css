@@ -1,0 +1,123 @@
+body{
+    background-color: #F5F4FA;
+    font-family: 'Roboto', 'Arial';
+}
+
+/*Encabezado*/
+
+.Tittle{
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 31px;
+    width: 145px;
+    color: #2196F3;
+}
+
+li{
+    list-style-type: none;
+}
+
+.Menú1-Submenú1 .Submenú1{
+    font-size: 14px;
+    color: #212121;
+    line-height: 16px;
+    text-decoration: none;
+}
+
+.Menú1-Submenú1 .Submenú1:focus{
+    color: #2196F3;
+    line-height: 16px;
+}
+
+.Info1{
+    font-size: 14px;
+    line-height: 16px;
+    color: #757575;
+    text-decoration: none;
+}
+
+/*Seccion uno*/
+
+.head{
+    background-color: #2F303A;
+}
+
+.head-tittle{
+    font-size: 44px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.head-button{
+    color: #212121;
+    font-size: 16px;
+    line-height: 30px;
+    background-color:  #F5F4FA;
+}
+
+.head-button:hover{
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 30px;
+    background-color: #2196F3;
+}
+
+/*Seccion Dos*/
+
+.intermediate{
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+}
+
+.middle-text{
+    font-size: 14px;
+    line-height: 24px;
+    color: #757575;
+}
+
+/*Seccion Tres imagenes*/
+
+.center{
+    font-size: 36px;
+    line-height: 42px;
+    color: #212121;
+}
+
+/*Seccion Cuarta baja*/
+
+.down{
+    background-color: #E5E5E5 ;
+}
+
+.tittle-down{
+    font-size: 36px;
+    line-height: 42px;
+    color: #212121;
+}
+
+.professional{
+    font-size: 16px;
+    line-height: 19px;
+    color: #212121;
+}
+
+.position{
+    font-size: 16px;
+    line-height: 19px;
+    color: #757575;
+}
+
+/*Pie de pagina*/
+
+.foot2{
+    background-color: #2F303A;
+}
+
+.location1{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 24px;
+}
