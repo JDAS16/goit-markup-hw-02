@@ -18,33 +18,31 @@ li{
     list-style-type: none;
 }
 
-.Menú1-Submenú1 .Submenú1{
+/*Menu de los dos html*/
+
+.menu-submenu .submenu{
     font-size: 14px;
     color: #212121;
     line-height: 16px;
     text-decoration: none;
 }
 
-.Menú1-Submenú1 .Submenú1:focus{
+.menu-submenu .Submenu:hover{
     color: #2196F3;
     line-height: 16px;
 }
 
-/*Menu de portafolio*/
-
-.Menú-submenú .submenú{
+.Text-direction{
     font-size: 14px;
     color: #212121;
     line-height: 16px;
     text-decoration: none;
 }
-
-.Menú-submenú .submenú:focus{
+.Text-direction:hover{
     color: #2196F3;
     line-height: 16px;
 }
-
-.Info1{
+.Info{
     font-size: 14px;
     line-height: 16px;
     color: #757575;
@@ -67,6 +65,10 @@ li{
     color: #212121;
     font-size: 16px;
     line-height: 30px;
+    width: 261px;
+    height: 50px;
+    left: 666px;
+    top: 430px;
     background-color:  #F5F4FA;
 }
 
@@ -79,17 +81,45 @@ li{
 
 /*Botones de portafolio*/
 
+.mouse{
+    cursor: pointer;
+}
+.link {
+    cursor: pointer;
+}
+
 .button-list .button{
-    color: #212121;
     background-color:  #F5F4FA;
+    width: 145px;
+    height: 38px;
+    left: calc(50% - 145px/2 - 15.5px);
+    top: calc(50% - 38px/2 - 735px);
+    font-size: 16px;
     line-height: 26px;
     border-radius: 4px;
 }
 
 .button-list .button:hover{
     color: #FFFFFF;
+    font-size: 16px;
     line-height: 26px;
     background-color: #2196F3;
+}
+
+.active{
+    color:#2196F3
+}
+
+.activebutton{
+    background-color: #2196F3;
+    color: white;
+    width: 145px;
+    height: 38px;
+    left: calc(50% - 145px/2 - 15.5px);
+    top: calc(50% - 38px/2 - 735px);
+    font-size: 16px;
+    line-height: 26px;
+    border-radius: 4px;
 }
 
 /*Seccion Dos*/
@@ -140,11 +170,15 @@ li{
 
 /*Pie de pagina*/
 
-.foot2{
+address{
+    font-style: normal;
+}
+
+.foot{
     background-color: #2F303A;
 }
 
-.location1{
+.location{
     color: #FFFFFF;
     text-decoration: none;
     font-size: 14px;
@@ -159,16 +193,6 @@ li{
 
 /*Seccion pie de pagina*/
 
-.foot{
-    background-color: #2F303A;
-}
-
-.location{
-    color: #FFFFFF;
-    font-size: 14px;
-    line-height: 24px;
-    text-decoration: none;
-}
 
 .networks{
     color: #FFFFFF;
