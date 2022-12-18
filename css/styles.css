@@ -1,12 +1,12 @@
 body{
     background-color: #F5F4FA;
     font-family: 'Roboto', 'Arial';
+    text-decoration: none;
 }
 
 /*Encabezado*/
 
-.Tittle{
-    text-decoration: none;
+.tittle{
     font-family: 'Raleway';
     font-size: 26px;
     line-height: 31px;
@@ -24,7 +24,6 @@ li{
     font-size: 14px;
     color: #212121;
     line-height: 16px;
-    text-decoration: none;
 }
 
 .menu-submenu .Submenu:hover{
@@ -32,21 +31,19 @@ li{
     line-height: 16px;
 }
 
-.Text-direction{
+.text-direction{
     font-size: 14px;
     color: #212121;
-    line-height: 16px;
-    text-decoration: none;
+    line-height: 16px
 }
-.Text-direction:hover{
+.text-direction:hover{
     color: #2196F3;
     line-height: 16px;
 }
-.Info{
+.info{
     font-size: 14px;
     line-height: 16px;
     color: #757575;
-    text-decoration: none;
 }
 
 /*Seccion uno*/
@@ -87,6 +84,7 @@ li{
 }
 .link {
     cursor: pointer;
+    text-decoration: none;
 }
 
 .button-list .button{
@@ -181,7 +179,6 @@ address{
 
 .location{
     color: #FFFFFF;
-    text-decoration: none;
     font-size: 14px;
     line-height: 24px;
 }
