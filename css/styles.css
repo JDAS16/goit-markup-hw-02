@@ -1,5 +1,16 @@
+
+:root {
+    --brand-color: #2196F3;
+    --brand-pagina: #F5F4FA;
+    --brand-menu: #212121;
+    --brand-info: #757575;
+    --brand-white: #FFFFFF;
+    --brand-head: #2F303A;
+  }
+
+
 body{
-    background-color: #F5F4FA;
+    background-color:var(--brand-pagina);
     font-family: 'Roboto', 'Arial';
     text-decoration: none;
 }
@@ -11,7 +22,7 @@ body{
     font-size: 26px;
     line-height: 31px;
     width: 145px;
-    color: #2196F3;
+    color:var(--brand-color);
 }
 
 li{
@@ -22,44 +33,45 @@ li{
 
 .menu-submenu .submenu{
     font-size: 14px;
-    color: #212121;
+    color:var(--brand-menu);
     line-height: 16px;
 }
 
 .menu-submenu .Submenu:hover{
-    color: #2196F3;
+    color:var(--brand-color);
     line-height: 16px;
 }
 
 .text-direction{
     font-size: 14px;
-    color: #212121;
+    color:var(--brand-menu);
     line-height: 16px
 }
 .text-direction:hover{
-    color: #2196F3;
+    color:var(--brand-color);
     line-height: 16px;
 }
 .info{
     font-size: 14px;
     line-height: 16px;
-    color: #757575;
+    color:var(--brand-info);
 }
 
 /*Seccion uno*/
 
 .head{
-    background-color: #2F303A;
+    background-color: var(--brand-head);
 }
 
 .head-tittle{
     font-size: 44px;
     line-height: 60px;
-    color: #FFFFFF;
+    color: var(--brand-white);
 }
 
 .head-button{
-    color: #212121;
+    color: var(--brand-menu);
+    font-family: Roboto;
     font-size: 16px;
     line-height: 30px;
     font-weight: 700;
@@ -67,14 +79,15 @@ li{
     height: 50px;
     left: 666px;
     top: 430px;
-    background-color:  #F5F4FA;
+    background-color:var(--brand-pagina);
 }
 
 .head-button:hover{
-    color: #FFFFFF;
+    color: var(--brand-white);
+    font-family: Roboto;
     font-size: 16px;
     line-height: 30px;
-    background-color: #2196F3;
+    background-color:var(--brand-color);
 }
 
 /*Botones de portafolio*/
@@ -88,7 +101,8 @@ li{
 }
 
 .button-list .button{
-    background-color:  #F5F4FA;
+    background-color: var(--brand-pagina);
+    font-family: Roboto;
     width: 145px;
     height: 38px;
     left: calc(50% - 145px/2 - 15.5px);
@@ -99,19 +113,21 @@ li{
 }
 
 .button-list .button:hover{
-    color: #FFFFFF;
+    font-family: Roboto;
+    color: var(--brand-white);
     font-size: 16px;
     line-height: 26px;
-    background-color: #2196F3;
+    background-color:var(--brand-color);
 }
 
 .active{
-    color:#2196F3
+    color:var(--brand-color)
 }
 
 .activebutton{
-    background-color: #2196F3;
-    color: white;
+    background-color:var(--brand-color);
+    font-family: Roboto;
+    color: var(--brand-white);
     width: 145px;
     height: 38px;
     left: calc(50% - 145px/2 - 15.5px);
@@ -126,45 +142,39 @@ li{
 .intermediate{
     font-size: 14px;
     line-height: 16px;
-    color: #212121;
+    color:var(--brand-menu);
 }
 
 .middle-text{
     font-size: 14px;
     line-height: 24px;
-    color: #757575;
+    color:var(--brand-info);;
 }
 
 /*Seccion Tres imagenes*/
 
-.center{
+.seccion-tittle{
     font-size: 36px;
     line-height: 42px;
-    color: #212121;
+    color:var(--brand-menu);
 }
 
 /*Seccion Cuarta baja*/
 
 .down{
-    background-color: #E5E5E5 ;
-}
-
-.tittle-down{
-    font-size: 36px;
-    line-height: 42px;
-    color: #212121;
+    background-color:var(--brand-white); ;
 }
 
 .professional{
     font-size: 16px;
     line-height: 19px;
-    color: #212121;
+    color:var(--brand-menu);
 }
 
 .position{
     font-size: 16px;
     line-height: 19px;
-    color: #757575;
+    color:var(--brand-info);;
 }
 
 /*Pie de pagina*/
@@ -174,17 +184,17 @@ address{
 }
 
 .foot{
-    background-color: #2F303A;
+    background-color:var(--brand-head);;
 }
 
 .location{
-    color: #FFFFFF;
+    color: var(--brand-white);;
     font-size: 14px;
     line-height: 24px;
 }
 
 .articul{
-    color: #757575;
+    color:var(--brand-info);;
     line-height: 30px;
     font-size: 16px;
 }
@@ -193,7 +203,7 @@ address{
 
 
 .networks{
-    color: #FFFFFF;
+    color: var(--brand-white);
     font-size: 14px;
     line-height: 16px;
 }
