@@ -6,7 +6,12 @@
     --brand-info: #757575;
     --brand-white: #FFFFFF;
     --brand-head: #2F303A;
-  }
+    --font-size: 14px;
+    --font--Weight: 400; 
+    --font-title:500;
+    --font-h3:700;
+    --font-family:'Roboto';
+}
 
 
 body{
@@ -17,44 +22,53 @@ body{
 
 /*Encabezado*/
 
-.tittle{
+.title{
     font-family: 'Raleway';
     font-size: 26px;
     line-height: 31px;
     width: 145px;
     color:var(--brand-color);
+    font-weight: 700;
 }
 
 li{
     list-style-type: none;
+    cursor: pointer;
+}
+
+.head-information{
+    font-weight: var(--font-title);
 }
 
 /*Menu de los dos html*/
 
 .menu-submenu .submenu{
-    font-size: 14px;
+    font-size: var(--font-size);
     color:var(--brand-menu);
     line-height: 16px;
 }
 
-.menu-submenu .Submenu:hover{
+.menu-submenu .submenu:hover{
     color:var(--brand-color);
     line-height: 16px;
 }
 
 .text-direction{
-    font-size: 14px;
+    font-size:var(--font-size);
     color:var(--brand-menu);
-    line-height: 16px
+    line-height: 16px;
+    font-weight: var(--font-title);
 }
 .text-direction:hover{
     color:var(--brand-color);
     line-height: 16px;
+    font-weight: var(--font-title);
 }
 .info{
-    font-size: 14px;
+    font-size:var(--font-size);
     line-height: 16px;
     color:var(--brand-info);
+    font-weight:var(--font--Weight);
 }
 
 /*Seccion uno*/
@@ -63,28 +77,29 @@ li{
     background-color: var(--brand-head);
 }
 
-.head-tittle{
+.head-title{
     font-size: 44px;
     line-height: 60px;
     color: var(--brand-white);
+    font-weight: 700;
 }
 
 .head-button{
     color: var(--brand-menu);
-    font-family: Roboto;
+    font-family:var(--font-family);
     font-size: 16px;
     line-height: 30px;
     font-weight: 700;
     width: 261px;
     height: 50px;
-    left: 666px;
-    top: 430px;
     background-color:var(--brand-pagina);
+    cursor: pointer;
+    font-weight: var(--font-h3);
 }
 
 .head-button:hover{
     color: var(--brand-white);
-    font-family: Roboto;
+    font-family:var(--font-family);
     font-size: 16px;
     line-height: 30px;
     background-color:var(--brand-color);
@@ -92,28 +107,24 @@ li{
 
 /*Botones de portafolio*/
 
-.mouse{
-    cursor: pointer;
-}
 .link {
-    cursor: pointer;
     text-decoration: none;
 }
 
 .button-list .button{
     background-color: var(--brand-pagina);
-    font-family: Roboto;
+    font-family:var(--font-family);
     width: 145px;
     height: 38px;
-    left: calc(50% - 145px/2 - 15.5px);
-    top: calc(50% - 38px/2 - 735px);
     font-size: 16px;
     line-height: 26px;
     border-radius: 4px;
+    font-weight: var(--font-title);
+    cursor: pointer;
 }
 
 .button-list .button:hover{
-    font-family: Roboto;
+    font-family:var(--font-family);
     color: var(--brand-white);
     font-size: 16px;
     line-height: 26px;
@@ -126,37 +137,44 @@ li{
 
 .activebutton{
     background-color:var(--brand-color);
-    font-family: Roboto;
+    font-family:var(--font-family);
     color: var(--brand-white);
     width: 145px;
     height: 38px;
-    left: calc(50% - 145px/2 - 15.5px);
-    top: calc(50% - 38px/2 - 735px);
     font-size: 16px;
     line-height: 26px;
     border-radius: 4px;
+    font-weight: var(--font-title);
+    cursor: pointer;
 }
 
 /*Seccion Dos*/
 
 .intermediate{
-    font-size: 14px;
+    font-size: var(--font-size);
     line-height: 16px;
     color:var(--brand-menu);
+    font-weight: var(--font-h3);
 }
 
 .middle-text{
-    font-size: 14px;
+    font-size:var(--font-size);
     line-height: 24px;
-    color:var(--brand-info);;
+    color:var(--brand-info);
+    font-weight:var(--font--Weight);
+}
+
+.title-img{
+    font-weight: var(--font-h3);
 }
 
 /*Seccion Tres imagenes*/
 
-.seccion-tittle{
+.section-title{
     font-size: 36px;
     line-height: 42px;
     color:var(--brand-menu);
+    font-weight: var(--font-h3);
 }
 
 /*Seccion Cuarta baja*/
@@ -169,12 +187,14 @@ li{
     font-size: 16px;
     line-height: 19px;
     color:var(--brand-menu);
+    font-weight: var(--font-title);
 }
 
 .position{
     font-size: 16px;
     line-height: 19px;
-    color:var(--brand-info);;
+    color:var(--brand-info);
+    font-weight:var(--font--Weight);
 }
 
 /*Pie de pagina*/
@@ -184,26 +204,27 @@ address{
 }
 
 .foot{
-    background-color:var(--brand-head);;
+    background-color:var(--brand-head);
 }
 
 .location{
-    color: var(--brand-white);;
-    font-size: 14px;
+    color: var(--brand-white);
+    font-size: var(--font-size);
     line-height: 24px;
+    font-weight:var(--font--Weight);
 }
 
-.articul{
-    color:var(--brand-info);;
+.article{
+    color:var(--brand-info);
     line-height: 30px;
     font-size: 16px;
+    font-weight:var(--font--Weight);
 }
 
 /*Seccion pie de pagina*/
 
-
 .networks{
     color: var(--brand-white);
-    font-size: 14px;
+    font-size:var(--font-size);
     line-height: 16px;
 }
