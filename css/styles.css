@@ -7,6 +7,7 @@
     --brand-white: #FFFFFF;
     --brand-head: #2F303A;
     --font-size: 14px;
+    --font-set: 16px;
     --font--Weight: 400; 
     --font-title:500;
     --font-h3:700;
@@ -87,7 +88,7 @@ li{
 .head-button{
     color: var(--brand-menu);
     font-family:var(--font-family);
-    font-size: 16px;
+    font-size: var(--font-set);
     line-height: 30px;
     font-weight: 700;
     width: 261px;
@@ -100,7 +101,7 @@ li{
 .head-button:hover{
     color: var(--brand-white);
     font-family:var(--font-family);
-    font-size: 16px;
+    font-size: var(--font-set);
     line-height: 30px;
     background-color:var(--brand-color);
 }
@@ -116,7 +117,7 @@ li{
     font-family:var(--font-family);
     width: 145px;
     height: 38px;
-    font-size: 16px;
+    font-size: var(--font-set);
     line-height: 26px;
     border-radius: 4px;
     font-weight: var(--font-title);
@@ -126,7 +127,7 @@ li{
 .button-list .button:hover{
     font-family:var(--font-family);
     color: var(--brand-white);
-    font-size: 16px;
+    font-size:var(--font-set);
     line-height: 26px;
     background-color:var(--brand-color);
 }
@@ -141,7 +142,7 @@ li{
     color: var(--brand-white);
     width: 145px;
     height: 38px;
-    font-size: 16px;
+    font-size: var(--font-set);
     line-height: 26px;
     border-radius: 4px;
     font-weight: var(--font-title);
@@ -184,14 +185,14 @@ li{
 }
 
 .professional{
-    font-size: 16px;
+    font-size: var(--font-set);
     line-height: 19px;
     color:var(--brand-menu);
     font-weight: var(--font-title);
 }
 
 .position{
-    font-size: 16px;
+    font-size: var(--font-set);
     line-height: 19px;
     color:var(--brand-info);
     font-weight:var(--font--Weight);
@@ -217,7 +218,7 @@ address{
 .article{
     color:var(--brand-info);
     line-height: 30px;
-    font-size: 16px;
+    font-size:var(--font-set);
     font-weight:var(--font--Weight);
 }
 
