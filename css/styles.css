@@ -26,7 +26,7 @@ body{
 .title{
     font-family: 'Raleway';
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.17em;
     width: 145px;
     color:var(--brand-color);
     font-weight: 700;
@@ -43,31 +43,24 @@ li{
 
 /*Menu de los dos html*/
 
-.menu-submenu .submenu{
-    font-size: var(--font-size);
-    color:var(--brand-menu);
-    line-height: 16px;
-}
-
-.menu-submenu .submenu:hover{
-    color:var(--brand-color);
-    line-height: 16px;
+img{
+    cursor: auto;
 }
 
 .text-direction{
     font-size:var(--font-size);
     color:var(--brand-menu);
-    line-height: 16px;
+    line-height: 1.17em;
     font-weight: var(--font-title);
 }
 .text-direction:hover{
     color:var(--brand-color);
-    line-height: 16px;
+    line-height: 1.17em;
     font-weight: var(--font-title);
 }
 .info{
     font-size:var(--font-size);
-    line-height: 16px;
+    line-height: 1.17em;
     color:var(--brand-info);
     font-weight:var(--font--Weight);
 }
@@ -80,7 +73,7 @@ li{
 
 .head-title{
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.3em;
     color: var(--brand-white);
     font-weight: 700;
 }
@@ -89,7 +82,7 @@ li{
     color: var(--brand-menu);
     font-family:var(--font-family);
     font-size: var(--font-set);
-    line-height: 30px;
+    line-height: 1.8em;
     font-weight: 700;
     width: 261px;
     height: 50px;
@@ -102,7 +95,7 @@ li{
     color: var(--brand-white);
     font-family:var(--font-family);
     font-size: var(--font-set);
-    line-height: 30px;
+    line-height: 1.8em;
     background-color:var(--brand-color);
 }
 
@@ -118,7 +111,7 @@ li{
     width: 145px;
     height: 38px;
     font-size: var(--font-set);
-    line-height: 26px;
+    line-height: 1.62em;
     border-radius: 4px;
     font-weight: var(--font-title);
     cursor: pointer;
@@ -128,7 +121,7 @@ li{
     font-family:var(--font-family);
     color: var(--brand-white);
     font-size:var(--font-set);
-    line-height: 26px;
+    line-height: 1.62em;
     background-color:var(--brand-color);
 }
 
@@ -143,7 +136,7 @@ li{
     width: 145px;
     height: 38px;
     font-size: var(--font-set);
-    line-height: 26px;
+    line-height: 1.62em;
     border-radius: 4px;
     font-weight: var(--font-title);
     cursor: pointer;
@@ -153,27 +146,28 @@ li{
 
 .intermediate{
     font-size: var(--font-size);
-    line-height: 16px;
+    line-height: 1.17em;
     color:var(--brand-menu);
     font-weight: var(--font-h3);
 }
 
 .middle-text{
     font-size:var(--font-size);
-    line-height: 24px;
+    line-height: 1.7em;
     color:var(--brand-info);
     font-weight:var(--font--Weight);
 }
 
 .title-img{
     font-weight: var(--font-h3);
+    line-height: 2em;
 }
 
 /*Seccion Tres imagenes*/
 
 .section-title{
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17em;
     color:var(--brand-menu);
     font-weight: var(--font-h3);
 }
@@ -186,14 +180,14 @@ li{
 
 .professional{
     font-size: var(--font-set);
-    line-height: 19px;
+    line-height: 1.17em;
     color:var(--brand-menu);
     font-weight: var(--font-title);
 }
 
 .position{
     font-size: var(--font-set);
-    line-height: 19px;
+    line-height: 1.17em;
     color:var(--brand-info);
     font-weight:var(--font--Weight);
 }
@@ -211,21 +205,15 @@ address{
 .location{
     color: var(--brand-white);
     font-size: var(--font-size);
-    line-height: 24px;
+    line-height: 1.71em;
     font-weight:var(--font--Weight);
 }
 
 .article{
     color:var(--brand-info);
-    line-height: 30px;
+    line-height: 1.8em;
     font-size:var(--font-set);
     font-weight:var(--font--Weight);
 }
 
 /*Seccion pie de pagina*/
-
-.networks{
-    color: var(--brand-white);
-    font-size:var(--font-size);
-    line-height: 16px;
-}
